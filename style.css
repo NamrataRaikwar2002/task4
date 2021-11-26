@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400;1,600&family=Roboto:wght@300;400;700&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;}
+:root {
+	--primary-color:#0508a0;
+	--white-color:white;
+	--red-color:#e94343;
+}
+
+.first_link{
+	font-style: bold;
+	color: black;
+	text-align: center;
+	/* background:#48e2c8; */
+	border-radius: 50px;
+	/* background-color: gray; */
+	padding-right: 3px;
+	text-decoration: none;
+
+
+}
+.box3{
+	background: var(--primary-color);
+	border-color: black;
+	border-radius: 6px;
+	/* text-align: center; */
+	text-decoration: none;
+	font-size: 17px;
+	/* font-weight:bold; */
+	padding: 10px;
+	
+
+
+
+}
+.project{
+	background: #cdcaf8;
+	text-align: center;
+	margin: 0;
+	border-style:calc();
+	border-radius: 6px;
+	border-width: 5px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-decoration: none;
+	border-left: solid;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+.project .homepage:hover{
+	color: black;
+	font-weight: bold;
+}
+
+
+
+.box5{
+	color:var(--red-color);
+
+}
+             
+.link{
+	text-decoration: none;
+	color: var(--white-color);
+	padding-right:21px;
+}
+
+#name{
+	border-radius: 6px;
+	background-attachment: 90px;
+	background-color: var(--primary-color);
+	padding: 30px;
+	color: var(--white-color);
+
+}
+.second_link{
+	margin: 16px;
+	color: var(--primary-color);
+	text-align: center;
+	/* background:#48e2c8; */
+	border-radius:0.3rem;
+	background-color: var(--white-color);
+	/* padding-right: 9.6px 19.2px; */
+	text-decoration: none;
+	border-width: 0rem;
+	padding: 0.4rem 0.2rem;
+
+
+}
+
+.project .second_link:hover{
+	color: black;
+}
+.homepage{
+	/* font-style: bold; */
+	color: var(--white-color);
+	text-align: center;
+	/* background:#48e2c8; */
+	border-radius:0.3rem;
+	background-color: var(--primary-color);
+	/* padding-right: 9.6px 19.2px; */
+	text-decoration: none;
+	border-width: 0rem;
+	padding: 0.4rem 0.2rem;
+}
+.homepage .link:hover{
+	color: black;
+	font-weight: bold;
+}
+.bottom{
+	background: var(--primary-color);
+	border-top: 20px;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight:bold;
+	padding: 10px;
+	text-align: center;
+	padding-left: 0px;
+	border-radius: 6px;
+
+}
+.logo{
+	padding: 20.2px;
+	border-radius: 35%;
+
+}
+
+.box3 .link-active{
+	font-weight:bold;
+	color: var(--red-color);
+	
+}
+.link:hover{
+	color:var(--white-color);
+	font-weight: bold;
+
+}
+.link:hover:active{
+	color: var(--red-color);
+}
+.bottom .link:hover{
+	color: black;
+}
+	
+.blog{
+	text-align: center;
+}
